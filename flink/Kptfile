@@ -3,6 +3,6 @@ kind: Kptfile
 metadata:
   name: flink
 info:
-  description: a flink session deployment
   emails:
     - dominicgregoire@gmail.com
+  description: a flink session deployment
