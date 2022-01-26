@@ -1,26 +1,9 @@
-# volume description
-# for timescaledb
-
----
-apiVersion: v1
-kind: PersistentVolume
-metadata:
-  name: timescaledb-pv
-spec:
-  storageClassName: standard
-  accessModes:
-    - ReadWriteOnce
-  capacity:
-    storage: 8Gi
-  hostPath:
-    path: /var/tmp
----
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: timescaledb-pvc
 spec:
-  volumeName: timescaledb-pv
+  storageClassName: standard
   accessModes:
     - ReadWriteOnce
   resources:
