@@ -1,8 +1,8 @@
 apiVersion: kpt.dev/v1
 kind: Kptfile
 metadata:
-  name: flink
+  name: timescaledb
 info:
   emails:
     - dominicgregoire@gmail.com
-  description: a flink session deployment
+  description: simple timescaledb
