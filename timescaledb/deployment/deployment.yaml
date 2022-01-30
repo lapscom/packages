@@ -28,7 +28,7 @@ spec:
                   key: password
           volumeMounts:
             - name: mysql-persistent-storage
-              mountPath: /var/lib/mysql
+              mountPath: /var/lib/postgresql/data
       volumes:
         - name: mysql-persistent-storage
           persistentVolumeClaim:
