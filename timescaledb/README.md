@@ -3,7 +3,7 @@
 ## Description
 A very simple timescaledb deployment.
 
-There is a secret for the `POSTGRES_PASSWORD` environement variable: it's set to `postgres` and should be changed to something else before deployment.
+There is a secret for the `POSTGRES_PASSWORD` environment variable: it's set to `postgres` and should be changed to something else before deployment.
 
 ## Usage
 
