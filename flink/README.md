@@ -1,12 +1,12 @@
 # flink
 
 ## Description
-sample description
+A very simple flink deployment.
 
 ## Usage
 
 ### Fetch the package
-`kpt pkg get REPO_URI[.git]/PKG_PATH[@VERSION] flink`
+`kpt pkg get https://github.com/lapscom/packages/flink@v0.1`
 Details: https://kpt.dev/reference/cli/pkg/get/
 
 ### View package content
